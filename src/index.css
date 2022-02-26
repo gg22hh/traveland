@@ -73,6 +73,14 @@ body {
     margin: 0 auto;
 }
 
+.title {
+	font-family: 'Gelasio', serif;
+	font-weight: 500;
+	font-size: 43px;
+	line-height: 60px;
+	color: black;
+}
+
 /* font-family: 'Gelasio', serif; */
 /* font-family: 'Ribeye', cursive; */
 

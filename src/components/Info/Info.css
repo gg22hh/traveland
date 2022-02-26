@@ -1,0 +1,16 @@
+.info {
+	text-align: center;
+	margin-bottom: 140px;
+}
+.info__title {
+	margin-bottom: 20px;
+}
+.info__text {
+	max-width: 735px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+.info__items {
+	display: flex;
+	gap: 30px;
+}
