@@ -1,0 +1,5 @@
+.head {
+	background: url('/public/images/Head/head-bg.jpg') center no-repeat;
+	background-size: cover;
+	height: 900px;
+}
