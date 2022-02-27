@@ -1,3 +1,4 @@
+
 .offers {
 	text-align: center;
 	margin-bottom: 140px;
@@ -9,4 +10,10 @@
 	max-width: 656px;
 	margin: 0 auto;
 	margin-bottom: 60px;
+}
+.slider-item {
+	width: 40px;
+	height: 40px;
+	background-color: teal;
+	margin: 0 10px;
 }
