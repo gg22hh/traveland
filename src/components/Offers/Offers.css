@@ -1,0 +1,12 @@
+.offers {
+	text-align: center;
+	margin-bottom: 140px;
+}
+.offers__title {
+	margin-bottom: 20px;
+}
+.offers__text {
+	max-width: 656px;
+	margin: 0 auto;
+	margin-bottom: 60px;
+}
