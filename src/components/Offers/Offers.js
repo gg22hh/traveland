@@ -40,7 +40,6 @@ export const Offers = () => {
             <Slider {...settings}>
 				{items}
             </Slider>
-			
         </div>
     );
 }
