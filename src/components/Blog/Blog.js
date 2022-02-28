@@ -1,7 +1,23 @@
 import React from "react";
+import { BlogItem } from './BlogComponents/BlogItem';
+import { blogLocations } from './blogLocations';
 import img from './blogImages/blog-canada.jpg'
+import './Blog.css'
 
 export const Blog = () => {
+
+	const locations = blogLocations.map(item => {
+		return (
+			<BlogItem
+				key={item.id}
+				image={item.image}
+				title={item.title}
+				text={item.text}
+				author={item.author}
+			/>
+		)
+	})
+
     return (
         <div className="blog">
             <div className="container">
@@ -30,6 +46,7 @@ export const Blog = () => {
                             @thomasalva_adison
                         </a>
                     </div>
+                    <div className="blog__box">{locations}</div>
                 </div>
             </div>
         </div>

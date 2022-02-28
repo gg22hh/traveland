@@ -1,0 +1,27 @@
+.blog__item {
+	display: flex;
+	align-items: center;
+	gap: 27px;
+}
+.blog__item-image {
+	max-width: 263px;
+	border-radius: 10px;
+}
+.blog__item-content {
+	max-width: 250px;
+}
+.blog__item-title {
+	font-family: 'Gelasio', serif;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 30px;
+	color: black;
+	margin-bottom: 10px;
+}
+.blog__item-text {
+	margin-bottom: 5px;
+}
+.blog__item-author {
+	color: rgba(0, 0, 0, 0.8);
+	font-size: 20px;
+}
