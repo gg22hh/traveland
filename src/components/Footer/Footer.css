@@ -1,0 +1,65 @@
+.footer {
+    padding: 70px 0;
+    background-color: rgba(38, 148, 153, 0.04);
+    color: black;
+}
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+}
+.footer__info {
+    max-width: 186px;
+}
+.footer__info-title {
+    display: block;
+    font-family: "Ribeye", cursive;
+    font-size: 24px;
+    letter-spacing: 0.06em;
+    margin-bottom: 30px;
+}
+.footer__info-contact {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.footer__info-links {
+    display: flex;
+    align-items: center;
+    gap: 27px;
+}
+.footer__links,
+.footer__privecy {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.footer__link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+.footer__subscribe-title {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.06em;
+    margin-bottom: 42px;
+}
+.footer__subscribe-form {
+    display: flex;
+}
+.footer__subscribe-input {
+    width: 195px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+	padding: 10px 20px;
+}
+.footer__subscribe-input::placeholder {
+	color: black;
+}
+.footer__subscribe-button {
+	margin-left: 35px;
+	font-size: 16px;
+	color: #fff;
+	padding: 10px 32px;
+	background-color: #C9453B;
+	border-radius: 5px;
+}
