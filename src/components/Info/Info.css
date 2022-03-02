@@ -14,3 +14,10 @@
 	display: flex;
 	gap: 30px;
 }
+
+@media(max-width: 1180px) {
+	.info__items {
+		flex-flow: column;
+		align-items: center;
+	}
+}

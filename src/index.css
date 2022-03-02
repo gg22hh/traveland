@@ -65,7 +65,7 @@ body {
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 29px;
-	color: rgba(0, 0, 0, 0.6)
+	color: rgba(0, 0, 0, 0.6);
 }
 
 .container {
@@ -88,4 +88,11 @@ body {
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
         monospace;
+}
+
+@media(max-width: 425px) {
+	.title {
+		font-size: 34px;
+		line-height: 40px;
+	}
 }

@@ -22,3 +22,26 @@
 	background-color: #C9453B;
 	border-radius: 5px;
 }
+
+@media(max-width: 580px) {
+	.banner {
+		padding: 70px 0 120px;
+		text-align: center;
+	}
+	.banner__title {
+		font-size: 35px;
+		line-height: 48px;
+		max-width: 426px;
+		margin: 0 auto 10px;
+	}
+	.banner__text {
+		max-width: 290px;
+		margin: 0 auto 30px;
+	}
+}
+@media(max-width: 458px) {
+	.banner__title {
+		font-size: 30px;
+		line-height: 38px;
+	}
+}

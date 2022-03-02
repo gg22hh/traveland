@@ -1,5 +1,11 @@
 .head {
-	background: url('/public/images/Head/head-bg.jpg') center no-repeat;
+	background: url('/public/images/Head/head-bg.jpg') left no-repeat;
 	background-size: cover;
 	margin-bottom: 140px;
+}
+
+@media(max-width: 425px) {
+	.head {
+		margin-bottom: 100px;
+	}
 }
