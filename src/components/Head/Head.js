@@ -8,7 +8,7 @@ export const Head = () => {
         <div className="head">
             <div className="container">
 				<Header />
-				<Banner />
+				{/* <Banner /> */}
             </div>
         </div>
     );
