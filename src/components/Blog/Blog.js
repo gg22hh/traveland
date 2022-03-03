@@ -42,7 +42,11 @@ export const Blog = () => {
                             scenery. Turquoise-colored lakes, snow-capped peaks,
                             and glaciers are all easily accessible
                         </div>
-                        <a href="#" className="blog__card-author">
+                        <a
+							target="_blank"
+                            href="https://github.com/gg22hh"
+                            className="blog__card-author"
+                        >
                             @thomasalva_adison
                         </a>
                     </div>
