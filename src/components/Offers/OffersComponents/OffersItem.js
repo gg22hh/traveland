@@ -5,7 +5,7 @@ export const OffersItem = ({ image, title, place, rating, days, price }) => {
 	return (
         <div className="offers__item">
             <div className="offers__item-image">
-                <img src={image} alt="image" />
+                <img src={image} alt="offersItem" />
             </div>
             <h3 className="offers__item-title">{title}</h3>
             <div className="offers__item-place">

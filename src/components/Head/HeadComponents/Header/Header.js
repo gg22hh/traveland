@@ -8,25 +8,25 @@ export const Header = () => {
     return (
         <div className="header">
             <div className="header__logo">
-                <a href="#">Trevland</a>
+                <a href="https://github.com/gg22hh">Trevland</a>
             </div>
             <ul className={active ? "header__list active" : "header__list"}>
                 <li className="header__list-item">
-                    <a href="#">Home</a>
+                    <a href="https://github.com/gg22hh">Home</a>
                 </li>
                 <li className="header__list-item">
-                    <a href="#">Location</a>
+                    <a href="https://github.com/gg22hh">Location</a>
                 </li>
                 <li className="header__list-item">
-                    <a href="#">Blog</a>
+                    <a href="https://github.com/gg22hh">Blog</a>
                 </li>
                 <li className="header__list-item">
-                    <a href="#">About</a>
+                    <a href="https://github.com/gg22hh">About</a>
                 </li>
                 <li className="header__list-item">
-                    <a href="#">Contact</a>
+                    <a href="https://github.com/gg22hh">Contact</a>
                 </li>
-                <a className="header__button" href="#">
+                <a className="header__button" href="https://github.com/gg22hh">
                     Booking now
                 </a>
             </ul>

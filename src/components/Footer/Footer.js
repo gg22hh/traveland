@@ -11,30 +11,30 @@ export const Footer = () => {
             <div className="container">
                 <div className="footer__inner">
                     <div className="footer__info">
-                        <a className="footer__info-title" href="#">
+                        <a className="footer__info-title" href="https://github.com/gg22hh">
                             Trevland
                         </a>
                         <div className="footer__info-contact">
-                            Contact us <a href="#">@shovasatkhira88.com</a>
+                            Contact us <a href="https://github.com/gg22hh">@shovasatkhira88.com</a>
                         </div>
                         <ul className="footer__info-links">
                             <li className="footer__info-link">
-                                <a href="#">
+                                <a href="https://github.com/gg22hh">
                                     <img src={facebook} alt="social" />
                                 </a>
                             </li>
                             <li className="footer__info-link">
-                                <a href="#">
+                                <a href="https://github.com/gg22hh">
                                     <img src={instagram} alt="social" />
                                 </a>
                             </li>
                             <li className="footer__info-link">
-                                <a href="#">
+                                <a href="https://github.com/gg22hh">
                                     <img src={twitter} alt="social" />
                                 </a>
                             </li>
                             <li className="footer__info-link">
-                                <a href="#">
+                                <a href="https://github.com/gg22hh">
                                     <img src={google} alt="social" />
                                 </a>
                             </li>
@@ -43,34 +43,34 @@ export const Footer = () => {
 
                     <ul className="footer__links">
                         <li className="footer__link">
-                            <a href="#">Services</a>
+                            <a href="https://github.com/gg22hh">Services</a>
                         </li>
                         <li className="footer__link">
-                            <a href="#">About</a>
+                            <a href="https://github.com/gg22hh">About</a>
                         </li>
                         <li className="footer__link">
-                            <a href="#">Our story</a>
+                            <a href="https://github.com/gg22hh">Our story</a>
                         </li>
                         <li className="footer__link">
-                            <a href="#">Benefits</a>
+                            <a href="https://github.com/gg22hh">Benefits</a>
                         </li>
                         <li className="footer__link">
-                            <a href="#">Branding</a>
+                            <a href="https://github.com/gg22hh">Branding</a>
                         </li>
                     </ul>
 
                     <ul className="footer__privecy">
                         <li className="footer__link">
-                            <a href="#">Legal</a>
+                            <a href="https://github.com/gg22hh">Legal</a>
                         </li>
                         <li className="footer__link">
-                            <a href="#">Terms & Conditions</a>
+                            <a href="https://github.com/gg22hh">Terms & Conditions</a>
                         </li>
                         <li className="footer__link">
-                            <a href="#">Privecy Policy</a>
+                            <a href="https://github.com/gg22hh">Privecy Policy</a>
                         </li>
                         <li className="footer__link">
-                            <a href="#">Terms of use</a>
+                            <a href="https://github.com/gg22hh">Terms of use</a>
                         </li>
                     </ul>
 
