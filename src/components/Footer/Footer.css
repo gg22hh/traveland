@@ -63,3 +63,19 @@
 	background-color: #C9453B;
 	border-radius: 5px;
 }
+@media(max-width: 900px) {
+	.footer__inner {
+		flex-direction: column;
+		align-items: center;
+		gap: 30px;
+		text-align: center;
+	}
+	.footer {
+		padding: 35px 0;
+	}
+}
+@media(max-width: 425px) {
+	.footer__subscribe-button {
+		margin-left: 10px;
+	}
+}

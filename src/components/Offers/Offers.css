@@ -34,3 +34,8 @@
 .slick-next {
 	right: 0;
 }
+@media(max-width: 425px) {
+	.offers {
+		margin-bottom: 50px;
+	}
+}

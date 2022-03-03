@@ -21,3 +21,8 @@
 		align-items: center;
 	}
 }
+@media(max-width: 765px) {
+	.info {
+		margin-bottom: 100px;
+	}
+}
